@@ -1,5 +1,11 @@
 #!/usr/bin/python3
 def sub(numlst)
+    subtract = 0
+    lstmax = max(numlst)
+    for i in numlst:
+        if lstmax > i:
+            subtract = subtract + i
+    return (lstmax - subtract)
 
 def roman_to_int(roman_string):
     if not roman_string:
@@ -22,11 +28,3 @@ def roman_to_int(roman_string):
                 romnum = numdict.get(char)
     n = n + sub(numlst)
     return (n)
-
-def sub(numlst):
-    subtract = 0
-    lstmax = max(numlst)
-    for i in numlst:
-        if lstmax > i:
-            subtract = subtract + i
-    return (lstmax - subtract)
