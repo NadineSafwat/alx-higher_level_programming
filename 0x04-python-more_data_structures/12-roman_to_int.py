@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def sub(numlst)
+def sub(numlst):
     subtract = 0
     lstmax = max(numlst)
     for i in numlst:
