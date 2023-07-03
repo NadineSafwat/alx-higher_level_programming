@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""
-This module is composed by a class that defines a Rectangle
-"""
+# 0-rectangle.py
+"""Defines a Rectangle class."""
+
 
 class Rectangle:
-    """
-    empty classthat defines a rectangle
-    """
+    """Represent a rectangle."""
     pass
