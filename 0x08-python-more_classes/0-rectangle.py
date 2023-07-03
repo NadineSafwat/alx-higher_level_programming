@@ -4,7 +4,7 @@ New module
 """
 
 class Rectangle:
-    """
-    empty class
-    """
-  pass
+"""
+empty class
+"""
+    pass
