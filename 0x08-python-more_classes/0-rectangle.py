@@ -4,5 +4,7 @@ This module is composed by a class that defines a Rectangle
 """
 
 class Rectangle:
-    """empty class"""
+    """
+    empty classthat defines a rectangle
+    """
     pass
